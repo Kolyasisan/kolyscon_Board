@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kolyscon_Board_Footprints")(type "KiCad")(uri "${KIPRJMOD}/kolyscon_Board_Footprints.pretty")(options "")(descr ""))
+)
