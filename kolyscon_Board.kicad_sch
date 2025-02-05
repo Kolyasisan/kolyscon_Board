@@ -2266,9 +2266,9 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -3.81 0)
+					(at -11.43 -1.27 0)
 					(length 3.81)
-					(name "6"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2284,9 +2284,9 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -1.27 0)
+					(at -11.43 -3.81 0)
 					(length 3.81)
-					(name "5"
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2538,8 +2538,14 @@
 			)
 		)
 	)
+	(junction
+		(at 27.94 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c8554d-8998-4964-8e16-207c8a849691")
+	)
 	(no_connect
-		(at 73.66 124.46)
+		(at 40.64 116.84)
 		(uuid "0b82c3f2-9635-4f4a-b71f-00c25bcb21b3")
 	)
 	(no_connect
@@ -2547,11 +2553,11 @@
 		(uuid "1c3f00ee-8e75-4a21-925e-1e00dcc5b0b2")
 	)
 	(no_connect
-		(at 63.5 153.67)
+		(at 50.8 87.63)
 		(uuid "1ddf17d5-a084-42a6-b0a1-d22afe3b5e7d")
 	)
 	(no_connect
-		(at 60.96 153.67)
+		(at 53.34 87.63)
 		(uuid "20c4380b-3cee-496b-8337-1329e4bc44dc")
 	)
 	(no_connect
@@ -2563,7 +2569,7 @@
 		(uuid "36963cef-4b11-4de7-bf91-5fd76b8cbd6b")
 	)
 	(no_connect
-		(at 50.8 147.32)
+		(at 63.5 93.98)
 		(uuid "3e11353a-b547-4f35-8468-42044bfb0865")
 	)
 	(no_connect
@@ -2571,31 +2577,31 @@
 		(uuid "3e6950c0-a2b2-45bc-8896-c2af27cc0bdc")
 	)
 	(no_connect
-		(at 73.66 129.54)
+		(at 40.64 111.76)
 		(uuid "57cd3444-6021-4b20-802e-ddd6a73185c3")
 	)
 	(no_connect
-		(at 73.66 116.84)
+		(at 40.64 124.46)
 		(uuid "612f68b8-796a-4bcc-ac82-587273357989")
 	)
 	(no_connect
-		(at 73.66 109.22)
+		(at 40.64 132.08)
 		(uuid "752ffa66-8123-4345-98b5-1210c4864079")
 	)
 	(no_connect
-		(at 73.66 104.14)
+		(at 40.64 137.16)
 		(uuid "7e23c49e-b49b-4446-9fbf-85b3f61d1537")
 	)
 	(no_connect
-		(at 50.8 149.86)
+		(at 63.5 91.44)
 		(uuid "85b70898-5b1c-49ef-b930-29641041b5e6")
 	)
 	(no_connect
-		(at 50.8 144.78)
+		(at 63.5 96.52)
 		(uuid "8cf68c5b-4119-4b7c-b21f-e72a6ab42e9d")
 	)
 	(no_connect
-		(at 66.04 153.67)
+		(at 48.26 87.63)
 		(uuid "a1261931-77ea-4d67-b1a9-823d2e2fdde2")
 	)
 	(no_connect
@@ -2603,7 +2609,7 @@
 		(uuid "ab984530-29ba-421a-a1c5-a1e5835b2599")
 	)
 	(no_connect
-		(at 73.66 121.92)
+		(at 40.64 119.38)
 		(uuid "c1058ce1-1938-4408-b315-e015cb019cf9")
 	)
 	(no_connect
@@ -2611,15 +2617,15 @@
 		(uuid "c366eda2-a42d-4246-bcc5-117871f9dfd3")
 	)
 	(no_connect
-		(at 73.66 119.38)
+		(at 40.64 121.92)
 		(uuid "d5f543b2-50d6-4bd4-ba20-91c310be98b7")
 	)
 	(no_connect
-		(at 58.42 153.67)
+		(at 55.88 87.63)
 		(uuid "db22acb7-97b9-4c69-8e34-eb79f4690536")
 	)
 	(no_connect
-		(at 73.66 127)
+		(at 40.64 114.3)
 		(uuid "e1b0ee13-61bb-462c-ba87-b9e1398779fe")
 	)
 	(no_connect
@@ -2627,24 +2633,16 @@
 		(uuid "e544a783-7662-4a92-ac8e-cdcb65c89626")
 	)
 	(no_connect
-		(at 73.66 111.76)
+		(at 40.64 129.54)
 		(uuid "eac335e3-798c-470b-9dd1-a31b2225a545")
-	)
-	(no_connect
-		(at 50.8 137.16)
-		(uuid "eb276899-cdbe-4ea6-b27e-09c142f8bd1c")
 	)
 	(no_connect
 		(at 260.35 123.19)
 		(uuid "f80eb914-9897-46f7-a8f4-e93c5032006d")
 	)
 	(no_connect
-		(at 50.8 142.24)
+		(at 63.5 99.06)
 		(uuid "f82fc387-637e-4103-9c6b-44351a33cec6")
-	)
-	(no_connect
-		(at 50.8 114.3)
-		(uuid "fa5b9ff0-ab21-4b20-9bcd-ac8b4777555f")
 	)
 	(wire
 		(pts
@@ -2688,6 +2686,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 127) (xy 40.64 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115b7e23-1487-4210-82d0-ef29ee857541")
+	)
+	(wire
+		(pts
 			(xy 208.28 118.11) (xy 208.28 123.19)
 		)
 		(stroke
@@ -2695,6 +2703,16 @@
 			(type default)
 		)
 		(uuid "1ff04f0b-98bb-41bf-963f-a47032f31036")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 63.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ef4b95-18d8-4cb4-a7ec-182cf992c45d")
 	)
 	(wire
 		(pts
@@ -2815,6 +2833,16 @@
 			(type default)
 		)
 		(uuid "8c1be332-4065-42bb-a429-a193d2e004d3")
+	)
+	(wire
+		(pts
+			(xy 26.67 127) (xy 27.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946e4f60-b1fa-4483-a1ab-ae2fc9d0c6e7")
 	)
 	(wire
 		(pts
@@ -2968,6 +2996,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 127) (xy 63.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12acf49-7045-41a8-a006-9b6e08e7f528")
+	)
+	(wire
+		(pts
 			(xy 191.77 74.93) (xy 191.77 71.12)
 		)
 		(stroke
@@ -3066,16 +3104,6 @@
 		)
 		(uuid "0357498b-dc08-4be7-a83f-9c394b810798")
 	)
-	(label "BT_D_10"
-		(at 50.8 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "072dbd5a-6a1b-45ca-b004-5b0310df3e27")
-	)
 	(label "SHIFTREG_SER"
 		(at 193.04 147.32 270)
 		(effects
@@ -3157,44 +3185,34 @@
 		(uuid "238f11b7-15dd-41d7-b36c-43c46b3002b4")
 	)
 	(label "SHIFTREG_CLK"
-		(at 50.8 104.14 180)
+		(at 63.5 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "25548382-aa1c-48de-bb01-8d076d047e13")
 	)
-	(label "BT_D_4"
-		(at 50.8 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "25fbb2e9-ee2c-4ccf-843d-d17729e627c5")
-	)
-	(label "BT_D_6"
-		(at 50.8 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2922a4cc-387f-4b04-a902-92763534a30f")
-	)
 	(label "SHIFTREG_LATCH"
-		(at 50.8 106.68 180)
+		(at 63.5 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "293033ce-bd79-4462-866b-a1226db3999f")
+	)
+	(label "BT_D_1"
+		(at 63.5 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f1e648c-0b11-4ee4-a8d1-9c999b219e30")
 	)
 	(label "BT_L_10"
 		(at 250.19 118.11 90)
@@ -3205,6 +3223,16 @@
 			(justify left bottom)
 		)
 		(uuid "3148253d-5bc0-4c98-851e-984a712fae91")
+	)
+	(label "BT_D_4"
+		(at 63.5 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3172b170-3336-4a95-a1a5-1cc0870f03f3")
 	)
 	(label "BT_D_5"
 		(at 242.57 36.83 180)
@@ -3226,15 +3254,25 @@
 		)
 		(uuid "3ade0785-d2f3-43e3-9923-33b0a97e094e")
 	)
-	(label "BT_D_11"
-		(at 50.8 139.7 180)
+	(label "BT_D_10"
+		(at 40.64 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3d3d6576-1596-46ed-9423-853eb2f70c7f")
+		(uuid "3e54cbe6-54a7-4563-8f7f-5340a33dc380")
+	)
+	(label "BT_D_7"
+		(at 63.5 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "400f4f79-25f9-475d-a7f6-51665757a036")
 	)
 	(label "BT_D_11"
 		(at 267.97 74.93 180)
@@ -3266,15 +3304,35 @@
 		)
 		(uuid "4ba40d31-54ed-453e-9ce6-0630a35191d8")
 	)
-	(label "BT_D_5"
-		(at 50.8 121.92 180)
+	(label "WLED_3"
+		(at 40.64 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4bccdfdf-04b4-45dc-84bb-503ee10b5a0c")
+		(uuid "4cd3779d-ec75-4f10-afdb-af2b3000658a")
+	)
+	(label "ENC_1_A"
+		(at 63.5 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "567126c5-197f-4c0a-b5f9-31b41e4ba7cd")
+	)
+	(label "ENC_2_B"
+		(at 63.5 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "567a6683-023a-4537-b361-963ba81518d8")
 	)
 	(label "ENC_1_A"
 		(at 87.63 27.94 270)
@@ -3285,6 +3343,16 @@
 			(justify right bottom)
 		)
 		(uuid "589bcb82-b8ad-453e-bf3e-4961f966c0d3")
+	)
+	(label "BT_D_8"
+		(at 40.64 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59f2cadf-ee35-49af-840d-04eb66dd93e4")
 	)
 	(label "BT_L_8"
 		(at 210.82 118.11 90)
@@ -3326,6 +3394,16 @@
 		)
 		(uuid "60a2e3cf-1871-483a-993b-36e4bf7eafd5")
 	)
+	(label "BT_D_9"
+		(at 40.64 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b1e87b5-c00e-49a5-a48e-97ed904ac95c")
+	)
 	(label "SHIFTREG_CLK"
 		(at 198.12 147.32 270)
 		(effects
@@ -3366,25 +3444,25 @@
 		)
 		(uuid "79dd9a02-c99a-449c-99bb-ecc3c2bb82ef")
 	)
-	(label "SHIFTREG_SER"
-		(at 50.8 101.6 180)
+	(label "WLED_1"
+		(at 40.64 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "7dae9c33-c3bf-47ae-b157-f7c2285cb78c")
+	)
+	(label "SHIFTREG_SER"
+		(at 63.5 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "8024f681-766a-45c1-859f-29a2ab8060ac")
-	)
-	(label "BT_D_3"
-		(at 50.8 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "89578cf9-bb7c-48f5-aa97-3ed2ff38e32f")
 	)
 	(label "BT_L_11"
 		(at 278.13 58.42 90)
@@ -3395,6 +3473,16 @@
 			(justify left bottom)
 		)
 		(uuid "89dbc16b-c9c2-4484-b38c-504c54c845e6")
+	)
+	(label "BT_D_3"
+		(at 63.5 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a4d6df0-fad0-43b7-87e9-cb6f5acc56a6")
 	)
 	(label "BT_L_1"
 		(at 193.04 118.11 90)
@@ -3407,6 +3495,16 @@
 		(uuid "8b872fa1-bc4c-48bd-b365-053283ca0809")
 	)
 	(label "BT_D_2"
+		(at 63.5 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e2495fc-720d-4ab8-b2cb-b408bae9897e")
+	)
+	(label "BT_D_2"
 		(at 167.64 36.83 180)
 		(effects
 			(font
@@ -3415,6 +3513,26 @@
 			(justify right bottom)
 		)
 		(uuid "8eff2b81-893f-4c95-9bab-ff72bb3242f6")
+	)
+	(label "BT_D_5"
+		(at 63.5 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "933877f5-8da5-455e-97bd-49410f73fa12")
+	)
+	(label "ENC_2_A"
+		(at 63.5 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9645b1ab-60b2-4c86-9513-2a5c8b1c08fb")
 	)
 	(label "BT_L_6"
 		(at 278.13 20.32 90)
@@ -3426,16 +3544,6 @@
 		)
 		(uuid "968492e3-ccc1-4564-8a86-2c2611fa80e0")
 	)
-	(label "BT_D_7"
-		(at 50.8 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99ad0ca5-6a07-4f04-b249-c82486d9a172")
-	)
 	(label "BT_L_4"
 		(at 200.66 118.11 90)
 		(effects
@@ -3445,6 +3553,16 @@
 			(justify left bottom)
 		)
 		(uuid "9a344f94-c781-4cb4-a55d-3d53ec7ba69e")
+	)
+	(label "WLED_4"
+		(at 40.64 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bb627c3-07e1-4d84-86b0-c45be72fbe51")
 	)
 	(label "BT_L_2"
 		(at 177.8 20.32 90)
@@ -3456,26 +3574,6 @@
 		)
 		(uuid "a1523354-d65c-426b-83b1-cb9132e9c187")
 	)
-	(label "ENC_2_B"
-		(at 73.66 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0fc6df6-33d0-405f-ba79-e2df1ab98b7b")
-	)
-	(label "ENC_1_A"
-		(at 73.66 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b220ac85-8ff8-40a2-a403-e10fe19e203d")
-	)
 	(label "SHIFTREG_CLK"
 		(at 252.73 148.59 270)
 		(effects
@@ -3485,16 +3583,6 @@
 			(justify right bottom)
 		)
 		(uuid "b3979629-99ea-40dd-8b05-68864893281c")
-	)
-	(label "WLED_1"
-		(at 73.66 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3c5aab6-b5dd-41ed-a466-8ebb4a430ec3")
 	)
 	(label "BT_D_4"
 		(at 217.17 36.83 180)
@@ -3537,14 +3625,14 @@
 		(uuid "c0105989-26a6-4e15-b3e1-504a38b05ed0")
 	)
 	(label "ENC_1_B"
-		(at 73.66 137.16 0)
+		(at 63.5 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c428d08a-628d-437f-b265-00bfad4acb3c")
+		(uuid "c3c2af8c-d8cd-4fb5-b6a7-f25adc50a939")
 	)
 	(label "BT_L_9"
 		(at 224.79 58.42 90)
@@ -3556,36 +3644,6 @@
 		)
 		(uuid "c7f32cf7-1c6d-443f-94c9-44e619420a7a")
 	)
-	(label "WLED_4"
-		(at 73.66 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce67be4f-8267-4779-bfaf-4983a25bfad8")
-	)
-	(label "ENC_2_A"
-		(at 73.66 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0826bd0-a08a-4672-8077-813d0d436bfa")
-	)
-	(label "WLED_2"
-		(at 73.66 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d127d9c2-e323-4ed1-9487-bc4261484b31")
-	)
 	(label "ENC_2_B"
 		(at 113.03 27.94 270)
 		(effects
@@ -3595,16 +3653,6 @@
 			(justify right bottom)
 		)
 		(uuid "d23a1845-10cf-45ed-8fb7-0a488c0f7292")
-	)
-	(label "WLED_3"
-		(at 73.66 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8744b1d-29a3-47fb-8f22-d9560b2985a9")
 	)
 	(label "BT_L_7"
 		(at 173.99 58.42 90)
@@ -3636,25 +3684,15 @@
 		)
 		(uuid "dec283de-bd06-4b23-b244-f15b3577c585")
 	)
-	(label "BT_D_9"
-		(at 50.8 132.08 180)
+	(label "WLED_2"
+		(at 40.64 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "dfb14173-d470-4603-a772-4a63ac5c6e9b")
-	)
-	(label "BT_D_8"
-		(at 50.8 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5fa0d78-366a-432a-92e5-2a8d15d0bc58")
+		(uuid "ea5a53d2-c9bf-46a9-9b7b-f3ca52c7b872")
 	)
 	(label "BT_D_3"
 		(at 193.04 36.83 180)
@@ -3676,15 +3714,15 @@
 		)
 		(uuid "ef95f6a5-4bdc-47fb-a3ef-249fbc885672")
 	)
-	(label "BT_D_1"
-		(at 50.8 109.22 180)
+	(label "BT_D_6"
+		(at 63.5 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "efc3c7ec-ad91-4e57-82cd-16fc86d9b2f7")
+		(uuid "f37a608f-fb13-4c3c-b4bb-80ca9a571106")
 	)
 	(label "BT_D_8"
 		(at 189.23 74.93 180)
@@ -3696,15 +3734,15 @@
 		)
 		(uuid "f67581a3-30d8-44dd-ab78-3b3c5225d626")
 	)
-	(label "BT_D_2"
-		(at 50.8 111.76 180)
+	(label "BT_D_11"
+		(at 40.64 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ff52bdff-206d-494b-b703-882f3996165c")
+		(uuid "fbf5c4e5-1087-4f06-b68f-427009deb1d6")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -3791,7 +3829,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 280.67 25.3999 0)
 			(effects
 				(font
@@ -3819,6 +3857,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 278.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -3979,7 +4026,7 @@
 		(at 90.17 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4199,7 +4246,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 157.48 25.3999 0)
 			(effects
 				(font
@@ -4227,6 +4274,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 154.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 154.94 24.13 0)
 			(effects
 				(font
@@ -4334,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 217.17 29.718 0)
 			(effects
 				(font
@@ -4362,6 +4418,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 222.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 222.25 27.94 0)
 			(effects
 				(font
@@ -4406,7 +4471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 267.97 67.818 0)
 			(effects
 				(font
@@ -4434,6 +4499,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 273.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 273.05 66.04 0)
 			(effects
 				(font
@@ -4811,7 +4885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 267.97 29.718 0)
 			(effects
 				(font
@@ -4839,6 +4913,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 273.05 27.94 0)
 			(effects
 				(font
@@ -4932,6 +5015,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e1ec230-084c-4949-8142-21bbcd026213")
+		(property "Reference" "#PWR061"
+			(at 27.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_PWR"
+			(at 27.9399 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "841e965e-f029-4050-9d1e-6d10dc8d4682")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa8ff9c-6bb1-4b83-ba36-194bd692be52")
+		(property "Reference" "#PWR060"
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb4328df-2496-47bf-bf4f-fd1f98ac4f34")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 278.13 62.23 180)
 		(unit 1)
@@ -4950,7 +5166,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 280.67 63.4999 0)
 			(effects
 				(font
@@ -4978,6 +5194,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 278.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 278.13 62.23 0)
 			(effects
 				(font
@@ -5276,7 +5501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 106.68 90)
+		(at 40.64 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5285,7 +5510,7 @@
 		(fields_autoplaced yes)
 		(uuid "37fa8c98-b46a-4e26-98df-f3ab473da5c3")
 		(property "Reference" "#PWR055"
-			(at 80.01 106.68 0)
+			(at 34.29 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 106.6799 90)
+			(at 36.83 134.6201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 106.68 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 106.68 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 106.68 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5718,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 180.34 25.3999 0)
 			(effects
 				(font
@@ -5521,6 +5746,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 177.8 24.13 0)
 			(effects
 				(font
@@ -5774,7 +6008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 240.03 67.818 0)
 			(effects
 				(font
@@ -5802,6 +6036,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -5847,7 +6090,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 255.27 25.3999 0)
 			(effects
 				(font
@@ -5875,6 +6118,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 252.73 24.13 0)
 			(effects
 				(font
@@ -5969,7 +6221,7 @@
 		(at 102.87 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6129,7 +6381,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 242.57 29.718 0)
 			(effects
 				(font
@@ -6157,6 +6409,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 247.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 247.65 27.94 0)
 			(effects
 				(font
@@ -6254,7 +6515,7 @@
 		(at 203.2 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6361,7 +6622,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 73.66 101.6 270)
+		(at 40.64 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6370,7 +6631,7 @@
 		(fields_autoplaced yes)
 		(uuid "700738a3-0b8b-4dd3-ad4c-2adc3af170aa")
 		(property "Reference" "#PWR054"
-			(at 69.85 101.6 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6640,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 77.47 101.5999 90)
+			(at 36.83 139.7001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 101.6 0)
+			(at 40.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 101.6 0)
+			(at 40.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +6667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 101.6 0)
+			(at 40.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +6758,7 @@
 		(at 63.5 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6780,7 +7041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 214.63 67.818 0)
 			(effects
 				(font
@@ -6808,6 +7069,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 219.71 66.04 0)
 			(effects
 				(font
@@ -6991,7 +7261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 189.23 67.818 0)
 			(effects
 				(font
@@ -7019,6 +7289,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 194.31 66.04 0)
 			(effects
 				(font
@@ -7186,16 +7465,16 @@
 	)
 	(symbol
 		(lib_id "kolyscon_Symbols:Weird_Purple_RP2040_Board")
-		(at 62.23 115.57 0)
+		(at 52.07 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "849fd5b5-0e1e-45f4-a51b-95f28f1d3691")
 		(property "Reference" "U3"
-			(at 62.23 95.25 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7482,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 62.23 97.79 0)
+			(at 52.07 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7490,7 @@
 			)
 		)
 		(property "Footprint" "kolyscon_Board_Footprints:WeirdPurpleRP2040Board"
-			(at 62.23 115.57 0)
+			(at 52.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 115.57 0)
+			(at 52.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7508,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 115.57 0)
+			(at 52.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 167.64 29.718 0)
 			(effects
 				(font
@@ -7424,6 +7703,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 172.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 172.72 27.94 0)
 			(effects
 				(font
@@ -7999,7 +8287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 114.3 90)
+		(at 26.67 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8008,7 +8296,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c705ece-e9d5-4fff-b482-05e3a58ae086")
 		(property "Reference" "#PWR056"
-			(at 80.01 114.3 0)
+			(at 20.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +8305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 114.2999 90)
+			(at 22.86 127.0001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +8314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 114.3 0)
+			(at 26.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8035,7 +8323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 114.3 0)
+			(at 26.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,7 +8332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 114.3 0)
+			(at 26.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,6 +8553,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e9d5e3-78ec-45dd-813d-bb4c710c5088")
+		(property "Reference" "#PWR059"
+			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89bf9286-9072-4673-ae97-10ca645ac917")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
 		(at 198.12 27.94 180)
 		(unit 1)
@@ -8282,7 +8637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 193.04 29.718 0)
 			(effects
 				(font
@@ -8310,6 +8665,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 198.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 198.12 27.94 0)
 			(effects
 				(font
@@ -8355,7 +8719,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 205.74 25.3999 0)
 			(effects
 				(font
@@ -8383,6 +8747,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 203.2 24.13 0)
 			(effects
 				(font
@@ -8564,7 +8937,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 252.73 63.4999 0)
 			(effects
 				(font
@@ -8592,6 +8965,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -8700,7 +9082,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 201.93 63.4999 0)
 			(effects
 				(font
@@ -8736,6 +9118,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a8b9ca6c-51e8-48ea-887c-02a7a6ab264e")
 		)
@@ -8756,7 +9147,7 @@
 		(at 34.29 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8842,7 +9233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 144.78 29.718 0)
 			(effects
 				(font
@@ -8870,6 +9261,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 149.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28646271"
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -8978,7 +9378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HL2302"
+		(property "Value" "~"
 			(at 163.83 67.818 0)
 			(effects
 				(font
@@ -9309,7 +9709,7 @@
 		(at 35.56 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10058,7 +10458,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 227.33 63.4999 0)
 			(effects
 				(font
@@ -10086,6 +10486,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 224.79 62.23 0)
 			(effects
 				(font
@@ -10181,7 +10590,7 @@
 		(at 113.03 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10454,7 +10863,7 @@
 		(at 63.5 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10608,7 +11017,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 176.53 63.4999 0)
 			(effects
 				(font
@@ -10636,6 +11045,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 173.99 62.23 0)
 			(effects
 				(font
@@ -10942,7 +11360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R1k"
 			(at 229.87 25.3999 0)
 			(effects
 				(font
@@ -10978,6 +11396,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 227.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b7ae627-382a-41b8-b0f9-d642ed0104fc")
 		)
@@ -10998,7 +11425,7 @@
 		(at 257.81 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
