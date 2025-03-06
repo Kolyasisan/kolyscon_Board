@@ -2633,10 +2633,6 @@
 		(uuid "e544a783-7662-4a92-ac8e-cdcb65c89626")
 	)
 	(no_connect
-		(at 40.64 129.54)
-		(uuid "eac335e3-798c-470b-9dd1-a31b2225a545")
-	)
-	(no_connect
 		(at 260.35 123.19)
 		(uuid "f80eb914-9897-46f7-a8f4-e93c5032006d")
 	)
@@ -3829,7 +3825,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 280.67 25.3999 0)
 			(effects
 				(font
@@ -3865,7 +3861,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 278.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 278.13 24.13 0)
 			(effects
 				(font
@@ -4246,7 +4251,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 157.48 25.3999 0)
 			(effects
 				(font
@@ -4282,7 +4287,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 154.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 154.94 24.13 0)
 			(effects
 				(font
@@ -4399,7 +4413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 217.17 30.48 0)
 			(effects
 				(font
@@ -4426,7 +4440,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 222.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 222.25 27.94 0)
 			(effects
 				(font
@@ -4480,7 +4503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 267.97 68.58 0)
 			(effects
 				(font
@@ -4507,7 +4530,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 273.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 273.05 66.04 0)
 			(effects
 				(font
@@ -4662,6 +4694,73 @@
 			(project ""
 				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d99f040-8af9-4d09-bbff-830d8c758317")
+		(property "Reference" "#PWR03"
+			(at 44.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 36.83 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 40.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f91731cf-80bc-4519-937d-47fa2d9c2aa8")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4894,7 +4993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 267.97 30.48 0)
 			(effects
 				(font
@@ -4921,7 +5020,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 273.05 27.94 0)
 			(effects
 				(font
@@ -5166,7 +5274,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 280.67 63.4999 0)
 			(effects
 				(font
@@ -5202,7 +5310,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 278.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 278.13 62.23 0)
 			(effects
 				(font
@@ -5431,7 +5548,7 @@
 		(at 245.11 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "378a6e71-ae8f-4f87-9cfc-41570a28067f")
@@ -5718,7 +5835,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 180.34 25.3999 0)
 			(effects
 				(font
@@ -5754,7 +5871,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 177.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 177.8 24.13 0)
 			(effects
 				(font
@@ -5783,7 +5909,7 @@
 		(at 170.18 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3e6f3285-eda4-485c-9c7e-c9d40da980e6")
@@ -5846,6 +5972,72 @@
 			(project "kolyscon_Board"
 				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
 					(reference "B2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 200.66 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4020c3df-bffa-41d3-9cc1-ea2fe4e21ac9")
+		(property "Reference" "#PWR062"
+			(at 200.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "101068ad-0937-4a9c-9d20-7f9301264c5d")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5922,7 +6114,7 @@
 		(at 242.57 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4486a0a8-12a9-41af-99ad-feb6017c684d")
@@ -6017,7 +6209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 240.03 68.58 0)
 			(effects
 				(font
@@ -6044,7 +6236,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -6090,7 +6291,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 255.27 25.3999 0)
 			(effects
 				(font
@@ -6126,7 +6327,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 252.73 24.13 0)
 			(effects
 				(font
@@ -6295,7 +6505,7 @@
 		(at 219.71 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "658aa6d2-2e65-4273-8550-e7e03790fa5b")
@@ -6390,7 +6600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 242.57 30.48 0)
 			(effects
 				(font
@@ -6417,7 +6627,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 247.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 247.65 27.94 0)
 			(effects
 				(font
@@ -6545,7 +6764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+		(property "Datasheet" ""
 			(at 203.2 133.35 0)
 			(effects
 				(font
@@ -6892,72 +7111,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 200.66 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "784d4de6-fcd2-4f11-b884-52220644a4d5")
-		(property "Reference" "#PWR05"
-			(at 200.66 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 200.66 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b4b812d-ed45-4094-8275-0d5eefd1da59")
-		)
-		(instances
-			(project ""
-				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 107.95 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7050,7 +7203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 214.63 68.58 0)
 			(effects
 				(font
@@ -7077,7 +7230,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 219.71 66.04 0)
 			(effects
 				(font
@@ -7171,11 +7333,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 242.57 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e85bb43-24ac-47e2-9f54-195ac9f22cd9")
+		(property "Reference" "#PWR04"
+			(at 246.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 238.76 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6d96f13-323c-4310-b246-2a37723ebf8f")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 270.51 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "80310fc6-892a-4bf7-ae15-de17de3fb10b")
@@ -7270,7 +7499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 189.23 68.58 0)
 			(effects
 				(font
@@ -7297,7 +7526,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 194.31 66.04 0)
 			(effects
 				(font
@@ -7329,7 +7567,7 @@
 		(at 191.77 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "82badcf4-8284-44f4-b5ff-cdf048f209fa")
@@ -7684,7 +7922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -7711,7 +7949,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 172.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 172.72 27.94 0)
 			(effects
 				(font
@@ -7743,7 +7990,7 @@
 		(at 166.37 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8749eaab-238e-481c-bb37-76d3b271dd98")
@@ -8012,7 +8259,7 @@
 		(at 217.17 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9514019f-f695-4b42-983a-cebfcf3e2968")
@@ -8151,7 +8398,7 @@
 		(at 147.32 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "964d84ac-ac6a-4ecb-8ccc-8eb4a032e96f")
@@ -8347,6 +8594,72 @@
 			(project ""
 				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 255.27 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ca17569-bb40-49ef-b6b6-9f7b6decb547")
+		(property "Reference" "#PWR06"
+			(at 255.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 255.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46de87f1-18c6-45c9-ad7e-8bd7b1d16328")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8646,7 +8959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -8673,7 +8986,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "LCSC" ""
+			(at 198.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 198.12 27.94 0)
 			(effects
 				(font
@@ -8719,7 +9041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 205.74 25.3999 0)
 			(effects
 				(font
@@ -8755,7 +9077,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 203.2 24.13 0)
 			(effects
 				(font
@@ -8784,7 +9115,7 @@
 		(at 195.58 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "abf2812f-4ac1-4596-a530-acd8969869a2")
@@ -8937,7 +9268,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 252.73 63.4999 0)
 			(effects
 				(font
@@ -8973,7 +9304,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -9082,7 +9422,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 201.93 63.4999 0)
 			(effects
 				(font
@@ -9118,7 +9458,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -9242,7 +9591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 144.78 30.48 0)
 			(effects
 				(font
@@ -9269,7 +9618,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646271"
+		(property "MPN" ""
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -9387,7 +9736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 163.83 68.58 0)
 			(effects
 				(font
@@ -9406,6 +9755,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -9569,7 +9936,7 @@
 		(at 270.51 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c69380bb-c9d3-46a4-8e25-4b01fb20422b")
@@ -9772,73 +10139,6 @@
 			(project ""
 				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
 					(reference "WLED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 242.57 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca8b1aa7-1a2a-4bee-8e2b-cf66b664a9d9")
-		(property "Reference" "#PWR04"
-			(at 246.38 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 238.76 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 242.57 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ed57374-9449-4dca-9252-2469d90f3529")
-		)
-		(instances
-			(project ""
-				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10458,7 +10758,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 227.33 63.4999 0)
 			(effects
 				(font
@@ -10494,7 +10794,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 224.79 62.23 0)
 			(effects
 				(font
@@ -10586,6 +10895,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb7ab9f2-1e62-42ee-abe9-9b4daab9731b")
+		(property "Reference" "#PWR05"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.15 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd9988bd-1b7b-4d9a-9e19-d8d014081504")
+		)
+		(instances
+			(project "kolyscon_Board"
+				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 113.03 22.86 90)
 		(unit 1)
@@ -10654,139 +11030,6 @@
 			(project "kolyscon_Board"
 				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
 					(reference "ENC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef0f7d45-342c-4077-a2ef-e961bc57b8b4")
-		(property "Reference" "#PWR03"
-			(at 191.77 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 184.15 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3842cd3b-a6b9-4a2b-b0bb-32d2750fb001")
-		)
-		(instances
-			(project ""
-				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 255.27 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eff72da6-537e-446d-bb58-5bca9744ade4")
-		(property "Reference" "#PWR06"
-			(at 255.27 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 255.27 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "630c330f-f7d0-4720-af09-e77bcb0eb546")
-		)
-		(instances
-			(project "kolyscon_Board"
-				(path "/583d4ea5-3468-47fb-a2f6-8eeb3861aad5"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11017,7 +11260,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 176.53 63.4999 0)
 			(effects
 				(font
@@ -11053,7 +11296,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 173.99 62.23 0)
 			(effects
 				(font
@@ -11360,7 +11612,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R2k"
 			(at 229.87 25.3999 0)
 			(effects
 				(font
@@ -11396,7 +11648,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
+			(at 227.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 227.33 24.13 0)
 			(effects
 				(font
@@ -11455,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+		(property "Datasheet" ""
 			(at 257.81 133.35 0)
 			(effects
 				(font
